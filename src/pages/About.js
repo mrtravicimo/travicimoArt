@@ -20,27 +20,26 @@ const About = () => {
             <img src={WomanImg} alt="" />
           </div>
           {/* text */}
-          <div
-            className="flex-1 pt-36 pb-14 lg:pt-0 
+          <div className="flex-1 pt-36 pb-14 lg:pt-0 
           lg:w-auto z-10 flex flex-col justify-center 
-          items-center lg:items-start"
-          >
+          items-center lg:items-start">
             <h1 className="h1">About me</h1>
             <p className="mb-12 max-w-sm">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
-              <b>rem aliquam modi vero temporibus.</b> veniam obcaecati nihil
-              corrupti architecto magnam in ut, dolorem harum laborum aliquid
-              velit impedit voluptatem illum.
-              <br />
-              <br />
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+               Omnis
+             <b>rem aliquam modi vero temporibus.</b>  veniam obcaecati nihil corrupti
+              architecto magnam in ut, dolorem harum laborum aliquid velit
+              impedit voluptatem illum.
+            <br />
+            <br />
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
               dolore dicta sint in placeat fugit modi, rerum maiores quos
               perspiciatis molestiae voluptatibus delectus repudiandae quibusdam
               numquam illo ab veniam a.
             </p>
-            <Link to={"/portfolio"} className="btn">
+            <Link to={'/portfolio'} className="btn">
               View my work
-            </Link>
+              </Link>
           </div>
         </div>
       </div>
