@@ -14,9 +14,22 @@ const Home = () => {
           <h1 className='h1'>
             Artist <br /> & Music 
           </h1>
+          <p className='text-[26px] lg:text-[36px] 
+          font-primary mb-4 lg:mb-12'>
+            Tokyo, Japan
+            </p>
+            <Link to={'/contact'} className='btn mb-[30px]'>
+              hire me
+              </Link>
         </div>
          {/* image */}
-        <div>image</div>
+        <div className='flex justify-end max-h-96
+        lg:max-h-max'>
+          <div className='relative lg:right-40
+          overflow-hidden'>
+            <img src={WomanImg} alt="" />
+          </div>
+        </div>
       </div>
     </div>
     </section >;
