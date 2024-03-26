@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import Image1 from "../img/portfolio/1.png";
 import Image2 from "../img/portfolio/2.png";
 import Image3 from "../img/portfolio/3.png";
@@ -6,8 +6,10 @@ import Image4 from "../img/portfolio/4.png";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
+import { CursorContext } from "../context/CursorContext";
 
 const Portfolio = () => {
+  const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
   return (
     <motion.section
       initial={{ opacity: 0, y: "100%" }}
@@ -27,6 +29,8 @@ const Portfolio = () => {
         >
           {/* text */}
           <motion.div
+            onMouseEnter={mouseEnterHandler}
+            onMouseLeave={mouseLeaveHandler}
             initial={{ opacity: 0, y: "-80%" }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: "-80%" }}
@@ -55,7 +59,11 @@ const Portfolio = () => {
             </Link>
           </motion.div>
           {/* images grid */}
-          <div className="grid grid-cols-2 lg:gap-2">
+          <div
+            onMouseEnter={mouseEnterHandler}
+            onMouseLeave={mouseLeaveHandler}
+            className="grid grid-cols-2 lg:gap-2"
+          >
             {/* image */}
             <div
               className="max-w-[250px] lg:max-w-[320px]

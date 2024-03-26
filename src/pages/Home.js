@@ -20,7 +20,7 @@ const Home = () => {
         <div className="flex flex-col justify-center">
           {/* text */}
           <motion.div
-            initial={{ opacity: 0, y: "50%" }}
+            initial={{ opacity: 0, y: "-50%" }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: "-50%" }}
             transition={transition1}
