@@ -1,8 +1,10 @@
 import React, { useContext } from "react";
-import Image1 from "../img/portfolio/1.png";
-import Image2 from "../img/portfolio/2.png";
-import Image3 from "../img/portfolio/3.png";
-import Image4 from "../img/portfolio/4.png";
+import Image1 from "../img/portfolio/dragonSamurai.png";
+import Image2 from "../img/portfolio/lantern.jpg";
+import Image3 from "../img/portfolio/Asuka.jpg";
+import Image4 from "../img/portfolio/oni.jpg";
+import Image5 from "../img/portfolio/vampireNinja.png";
+import Image6 from "../img/portfolio/deadpool.jpg";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
@@ -106,6 +108,28 @@ const Portfolio = () => {
                 className="object-cover h-full lg:h-
             [220px] hover:scale-110 transition-all duration-500"
                 src={Image4}
+                alt=""
+              />
+            </div>
+            <div
+              className="max-w-[250px] lg:max-w-[320px]
+          h-[187px] lg:h-[220px] bg-accent overflow-hidden"
+            >
+              <img
+                className="object-cover h-full lg:h-
+            [220px] hover:scale-110 transition-all duration-500"
+                src={Image5}
+                alt=""
+              />
+            </div>
+            <div
+              className="max-w-[250px] lg:max-w-[320px]
+          h-[187px] lg:h-[220px] bg-accent overflow-hidden"
+            >
+              <img
+                className="object-cover h-full lg:h-
+            [220px] hover:scale-110 transition-all duration-500"
+                src={Image6}
                 alt=""
               />
             </div>

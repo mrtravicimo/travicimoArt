@@ -51,10 +51,7 @@ const About = () => {
               velit impedit voluptatem illum.
               <br />
               <br />
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
-              dolore dicta sint in placeat fugit modi, rerum maiores quos
-              perspiciatis molestiae voluptatibus delectus repudiandae quibusdam
-              numquam illo ab veniam a.
+              
             </p>
             <Link to={"/portfolio"} className="btn">
               View my work

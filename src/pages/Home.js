@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import WomanImg from "../img/home/woman.png";
+import WomanImg from "../img/home/Asuka.jpg";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
