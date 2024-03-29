@@ -67,7 +67,7 @@ const Contact = () => {
               />
               <button
                 className="btn mb-[30px] mx-auto
-                lg:mx-0 self-start"
+                lg:mx-0 self-start rounded-md"
               >
                 Send it
               </button>

@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import { CursorContext } from "../context/CursorContext";
 import {
   ImFacebook,
-  ImTwitter,
   ImYoutube,
   ImLinkedin,
   ImInstagram,

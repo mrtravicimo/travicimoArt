@@ -45,10 +45,8 @@ const About = () => {
           >
             <h1 className="h1">About me</h1>
             <p className="mb-12 max-w-sm">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
-              <b>rem aliquam modi vero temporibus.</b> veniam obcaecati nihil
-              corrupti architecto magnam in ut, dolorem harum laborum aliquid
-              velit impedit voluptatem illum.
+              Born in Quebec Canada I started drawing at a very young age and entering my teenager years also got involved in music.
+              <b>Never Give Up!.</b> with doing numourous jobs i always kept my passion alive and continue to make art until my demise.
               <br />
               <br />
               

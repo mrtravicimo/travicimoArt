@@ -40,14 +40,14 @@ const Home = () => {
             >
               Tokyo, Japan
             </p>
-            <Link to={"/contact"} className="btn mb-[30px]">
+            <Link to={"/contact"} className="btn mb-[30px] rounded-md">
               hire me
             </Link>
           </motion.div>
           {/* image */}
           <div
-            className="flex justify-end max-h-96
-        lg:max-h-max"
+            className="flex justify-center max-h-96
+        lg:max-h-max " 
           >
             <motion.div
               initial={{ scale: 0 }}
