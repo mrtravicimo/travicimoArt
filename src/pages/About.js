@@ -28,8 +28,8 @@ const About = () => {
         >
           {/* image */}
           <div
-            className="flex-1 max-h-96 lg:max-h-max 
-        order-2 lg:order-none overflow-hidden"
+            className="flex-1 mb-50 max-h-96 lg:max-h-max 
+        order-2 lg:order-none overflow-hidden rounded-full"
           >
             <img src={Selfie} alt="" />
           </div>

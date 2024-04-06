@@ -16,7 +16,7 @@ const Home = () => {
       transition={transition1}
       className="section"
     >
-      <div className="container mx-auto h-full relative">
+      <div className="container mx-auto h-full relative bg-purple-100">
         {/* text & img wrapper */}
         <div className="flex flex-col justify-center">
           {/* text */}
@@ -46,7 +46,7 @@ const Home = () => {
           </motion.div>
           {/* image */}
           <div
-            className="flex justify-center max-h-96
+            className="flex justify-center max-h-96 
         lg:max-h-max " 
           >
             <motion.div
@@ -58,7 +58,7 @@ const Home = () => {
           overflow-hidden"
             >
               <motion.img 
-                whileHover={{ scale: 1.1 }}
+                whileHover={{ scale: 1.2 }}
                 transition={transition1}
                 src={WomanImg}
                 alt=""

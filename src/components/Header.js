@@ -21,7 +21,7 @@ const Header = () => {
         <Link
         onMouseEnter={mouseEnterHandler}
         onMouseLeave={mouseLeaveHandler}
-         to={"/"} className="max-w-[200px]">
+         to={"/"} className="max-w-[300px]">
           <img src={Logo} alt="" />
         </Link>
         {/* nav - initially hidden - show on desktop mode*/}
