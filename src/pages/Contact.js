@@ -27,8 +27,7 @@ const Contact = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: "100%" }}
             transition={transition1}
-            className="hidden lg:flex bg-[#eef7f9] 
-          absolute bottom-0 left-0 right-0 top-72 z-10"
+            
           ></motion.div>
           {/* text & form */}
           <div 
