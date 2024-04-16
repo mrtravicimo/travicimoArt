@@ -51,6 +51,11 @@ const Header = () => {
           <Link
            to={'/contact'} className="text-[#696c6d] hover:text-primary transition"
         >
+          Music
+          </Link>
+          <Link
+           to={'/music'} className="text-[#696c6d] hover:text-primary transition"
+        >
           Contact
           </Link>
         </nav>

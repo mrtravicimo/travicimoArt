@@ -18,7 +18,7 @@ const About = () => {
       <div
         onMouseEnter={mouseEnterHandler}
         onMouseLeave={mouseLeaveHandler}
-        className="container mx-auto h-full relative"
+        className="container mx-auto h-full relative overflow-auto bottom-8 top-8"
       >
         {/* text & image wrapper */}
         <div
@@ -29,7 +29,7 @@ const About = () => {
           {/* image */}
           <div
             className="flex-1 mb-50 max-h-96 lg:max-h-max 
-        order-2 lg:order-none overflow-hidden rounded-full"
+        order-2 lg:order-none  rounded-full"
           >
             <img src={Selfie} alt="" />
           </div>

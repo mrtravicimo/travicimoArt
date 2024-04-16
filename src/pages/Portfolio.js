@@ -21,7 +21,7 @@ const Portfolio = () => {
       className="section"
     >
       <div
-        className="container mx-auto h-full 
+        className="container mx-auto h-full overflow-auto bottom-10
     relative"
       >
         <div
@@ -64,7 +64,7 @@ const Portfolio = () => {
           <div
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
-            className="grid grid-cols-2 lg:gap-2"
+            className="grid grid-cols-2 lg:gap-2 divide-x-2 divide-y-2"
           >
             {/* image */}
             <div

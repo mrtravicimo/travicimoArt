@@ -3,6 +3,7 @@ import Home from '../pages/Home'
 import About from '../pages/About'
 import Portfolio from '../pages/Portfolio'
 import Contact from '../pages/Contact'
+import Music from '../pages/Music';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 
@@ -16,6 +17,7 @@ const AnimRoutes = () => {
     <Route path='/about' element={<About />} />
     <Route path='/portfolio' element={<Portfolio />} />
     <Route path='/contact' element={<Contact />} />
+    <Route path='/music' element={<Music />} />
   </Routes>
    </AnimatePresence>
   );
