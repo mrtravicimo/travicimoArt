@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
 import { CursorContext } from "../context/CursorContext";
 
+
 const Music = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
   return (
@@ -35,16 +36,10 @@ const Music = () => {
           >
             <h1 className="h1">Music</h1>
             <p className="mb-12 max-w-sm">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
-              <b>rem aliquam modi vero temporibus.</b> veniam obcaecati nihil
-              corrupti architecto magnam in ut, dolorem harum laborum aliquid
-              velit impedit voluptatem illum.
-              <br />
-              <br />
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
-              dolore dicta sint in placeat fugit modi, rerum maiores quos
-              perspiciatis molestiae voluptatibus delectus repudiandae quibusdam
-              numquam illo ab veniam a.
+             I am also a music artist since a little kid i would play music instruments,
+             including <b>Guitar, Drums, Bass, Piano, Flute.</b>
+             <br/> <br/> I played in a metal band for a number of years 
+             and now I am trying to explore many different types of styles to broden my understanding of how to build various genres.
             </p>
             <Link
               to={"/contact"}
@@ -55,8 +50,15 @@ const Music = () => {
             </Link>
           </motion.div>
           {/* images grid */}
+          <div className="max-w-[250px] lg:max-w-[320px]
+          h-[187px] lg:h-[220px]">  
+          <h1 className='bottom-5 text-center text-red-700 text-2xl '>Song List</h1>    
+          <div className='text-center'>
+              <a href="https://youtu.be/xlEAmLYmTew?si=WDIm9aehY0rYXa1y">sanpo</a>              
+             </div>
           <div>
-
+              <a href="https://youtu.be/u1gnZ4jCbaU?si=k9xdPW3tR_hOYAOM">Cyber Valkyrie</a>              
+             </div>
           </div>
         </div>
       </div>

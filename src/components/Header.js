@@ -51,12 +51,12 @@ const Header = () => {
           <Link
            to={'/contact'} className="text-[#696c6d] hover:text-primary transition"
         >
-          Music
+          Contact
           </Link>
           <Link
            to={'/music'} className="text-[#696c6d] hover:text-primary transition"
         >
-          Contact
+          Music
           </Link>
         </nav>
         {/* socials */}
