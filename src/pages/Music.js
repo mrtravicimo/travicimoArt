@@ -41,6 +41,20 @@ const Music = () => {
              <br/> <br/> I played in a metal band for a number of years 
              and now I am trying to explore many different types of styles to broden my understanding of how to build various genres.
             </p>
+          {/* images grid */}
+          <div className="max-w-[250px] lg:max-w-[320px]
+          h-[187px] lg:h-[220px] flex-auto">  
+          <h2 className='bottom-5 text-center text-black text-2xl '>View songs on YouTube</h2>    
+          <div className='text-center text-stone-800 hover:text-orange-800 hover:scale-150 transition-all duration-500'>
+              <a href="https://youtu.be/xlEAmLYmTew?si=WDIm9aehY0rYXa1y">sanpo</a>              
+             </div>
+          <div className='text-center text-stone-800 hover:text-orange-800 hover:scale-150 transition-all duration-500'>
+              <a href="https://youtu.be/u1gnZ4jCbaU?si=k9xdPW3tR_hOYAOM">Cyber Valkyrie</a>              
+             </div>
+             <div className='text-center text-stone-800 hover:text-orange-800 hover:scale-150 transition-all duration-500'>
+              <a href="https://youtu.be/7XtxJM8mriU?si=JDfLYzC66PcHLzDh">Starpocolypse</a>
+             </div>
+          </div>
             <Link
               to={"/contact"}
               className="btn mb-[30px]
@@ -49,17 +63,6 @@ const Music = () => {
               Hire me
             </Link>
           </motion.div>
-          {/* images grid */}
-          <div className="max-w-[250px] lg:max-w-[320px]
-          h-[187px] lg:h-[220px]">  
-          <h1 className='bottom-5 text-center text-red-700 text-2xl '>Song List</h1>    
-          <div className='text-center'>
-              <a href="https://youtu.be/xlEAmLYmTew?si=WDIm9aehY0rYXa1y">sanpo</a>              
-             </div>
-          <div>
-              <a href="https://youtu.be/u1gnZ4jCbaU?si=k9xdPW3tR_hOYAOM">Cyber Valkyrie</a>              
-             </div>
-          </div>
         </div>
       </div>
     </motion.section>
