@@ -13,7 +13,7 @@ const Music = () => {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: "100%" }}
       transition={transition1}
-      className="section"
+      className="section" 
     >
       <div
         className="container mx-auto h-full overflow-auto bottom-10
