@@ -162,11 +162,10 @@ const Portfolio = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ ...transition, delay: 0.4 }}
             >
-              Step into a world where <span className="text-red-600">bold contrasts</span> meet 
-              artistic expression. My portfolio showcases a fusion of 
-              <b> stark blacks, crisp whites, and striking reds</b>, 
-              each piece a testament to the power of minimalist design 
-              and dramatic impact.
+              in the creative mind of <span className="text-red-600"><b>Travis Racine</b></span> Art has always been a passion and would love to make it a way of life.
+              <b> drawing since a child he would never drop that pen </b>, 
+              he would go on drawing, painting and even become a tattoo artist through the years.
+              now he is ready for the world to enjoy his passion.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
